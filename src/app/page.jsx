@@ -1,8 +1,8 @@
-
+import styles from ''
 
 export default function Home() {
   return (
-      <div>
+      <div className={styles.container}>
         Homepage
       </div>
   );
