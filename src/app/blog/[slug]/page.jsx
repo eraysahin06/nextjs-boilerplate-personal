@@ -41,11 +41,11 @@ const SinglePostPage = async ({ params }) => {
             height={50}
             className={styles.avatar}
           />
-          {post && (
+          {/* {post && (
             <Suspense fallback={<div>Loading...</div>}>
               <PostUser userId={post.userId} />
             </Suspense>
-          )}
+          )} */}
           <div className={styles.detailText}>
             <span className={styles.detailTitle}>Published On</span>
             <span className={styles.detailValue}>2024.01.01</span>
